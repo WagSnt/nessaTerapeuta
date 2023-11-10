@@ -51,11 +51,12 @@
   font-weight: 100;
   text-align: center;
   color: white;
+  margin-bottom: 50px;
 }
 .whatsBox .atendimentos {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   min-height: 100vh;
   color: white;
 }
@@ -63,6 +64,7 @@
   background-image: linear-gradient(#333, #333);
   overflow: hidden;
   border-radius: 16px;
+  max-width: 300px;
 }
 .whatsBox .card .img {
   background-position: center;
@@ -87,6 +89,19 @@
 }
 .whatsBox .card .img span {
   font-size: 20px;
+}
+.whatsBox .card .content {
+  padding: 15px;
+}
+.whatsBox .card .content .spanTitle {
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.whatsBox .card .content .desc {
+  font-size: 15px;
+  font-weight: 100;
+  opacity: 0.7;
 }
 
 * {
