@@ -74,16 +74,16 @@
   justify-content: center;
 }
 .whatsBox .card .img01 {
-  background-image: url(../../images/leituracartas.jpg);
+  background-image: url(../images/leituracartas.jpg);
 }
 .whatsBox .card .img02 {
-  background-image: url(../../images/leituracartas.jpg);
+  background-image: url(../images/leituracartas.jpg);
 }
 .whatsBox .card .img03 {
-  background-image: url(../../images/reiki.jpg);
+  background-image: url(../images/reiki.jpg);
 }
 .whatsBox .card .img04 {
-  background-image: url(../../images/harminizacao.jpg);
+  background-image: url(../images/harminizacao.jpg);
 }
 .whatsBox .card .img span {
   font-size: 20px;
