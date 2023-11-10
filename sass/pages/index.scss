@@ -1,13 +1,5 @@
-.container0 {
-  height: 100vh;
-  background-image: url(../images/projeto2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .homeText {
-  padding-top: 240px;
+  padding-top: 130px;
   width: 550px;
   
   .titleAlign{
@@ -30,10 +22,9 @@
   .paragraph{
     color: white;
     font-size: 1.3em;
-    line-height: 2em;
+    line-height: 1.6em;
   }
   #btnAction {
-
     background-color: $bg-btn-color;
     color: black;
     border-color: $bg-btn-color;
@@ -51,3 +42,13 @@
   }
 }
 
+.whatsBox{
+  .h2 {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: $bg-btn-color;
+  }
+  
+}

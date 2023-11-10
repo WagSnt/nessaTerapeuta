@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-.container0 {
-  height: 100vh;
-  background-image: url(../images/projeto2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .homeText {
-  padding-top: 240px;
+  padding-top: 130px;
   width: 550px;
 }
 .homeText .titleAlign {
@@ -30,7 +22,7 @@
 .homeText .paragraph {
   color: white;
   font-size: 1.3em;
-  line-height: 2em;
+  line-height: 1.6em;
 }
 .homeText #btnAction {
   background-color: #F2C166;
@@ -49,11 +41,41 @@
   padding: 18px;
 }
 
+.whatsBox .h2 {
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #F2C166;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+}
+
+.container0 {
+  height: 100vh;
+  background-image: url(../images/projeto2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.princAtendimentos {
+  background-color: #024059;
+}
+
+@media (max-width: 600px) {
+  .container0 {
+    height: 100vh;
+    background-image: url(../images/projeto2.png);
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
