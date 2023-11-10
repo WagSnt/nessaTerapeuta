@@ -43,10 +43,50 @@
 
 .whatsBox .h2 {
   padding-top: 30px;
-  font-size: 30px;
   font-weight: 700;
   text-align: center;
   color: #F2C166;
+}
+.whatsBox .h5 {
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+.whatsBox .atendimentos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+}
+.whatsBox .card {
+  background-image: linear-gradient(#333, #333);
+  overflow: hidden;
+  border-radius: 16px;
+}
+.whatsBox .card .img {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whatsBox .card .img01 {
+  background-image: url(../../images/leituracartas.jpg);
+}
+.whatsBox .card .img02 {
+  background-image: url(../../images/leituracartas.jpg);
+}
+.whatsBox .card .img03 {
+  background-image: url(../../images/reiki.jpg);
+}
+.whatsBox .card .img04 {
+  background-image: url(../../images/harminizacao.jpg);
+}
+.whatsBox .card .img span {
+  font-size: 20px;
 }
 
 * {
