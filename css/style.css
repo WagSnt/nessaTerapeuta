@@ -24,22 +24,6 @@
   font-size: 1.3em;
   line-height: 1.6em;
 }
-.homeText #btnAction {
-  background-color: #F2C166;
-  color: black;
-  border-color: #F2C166;
-  font-weight: 700;
-  margin-top: 30px;
-  padding: 15px;
-}
-.homeText #btnAction:hover {
-  border-color: #9400d3;
-  background-color: #9400d3;
-  color: white;
-  transition: 0.3s;
-  box-shadow: 2px 2px 2px solid black;
-  padding: 18px;
-}
 
 .whatsBox .h2 {
   padding-top: 30px;
@@ -57,8 +41,12 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  height: 900px;
+  height: 800px;
   color: white;
+}
+.whatsBox .descAtendimentos {
+  color: white;
+  font-size: 1.2em;
 }
 .whatsBox .card {
   background-image: linear-gradient(#bf935e, #bf935e);
@@ -68,7 +56,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -156,6 +144,23 @@
 
 .princAtendimentos {
   background-color: #024059;
+}
+
+#btnAction {
+  background-color: #F2C166;
+  color: black;
+  border-color: #F2C166;
+  font-weight: 700;
+  margin-top: 30px;
+  padding: 15px;
+}
+#btnAction:hover {
+  border-color: #9400d3;
+  background-color: #9400d3;
+  color: white;
+  transition: 0.3s;
+  box-shadow: 2px 2px 2px solid black;
+  padding: 18px;
 }
 
 @media (max-width: 600px) {
