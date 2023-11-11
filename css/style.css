@@ -55,25 +55,39 @@
 }
 .whatsBox .atendimentos {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  min-height: 100vh;
+  height: 900px;
   color: white;
 }
 .whatsBox .card {
   background-image: linear-gradient(#333, #333);
   overflow: hidden;
   border-radius: 16px;
-  max-width: 300px;
+  max-width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  cursor: pointer;
+}
+.whatsBox .card:hover {
+  background-image: linear-gradient(#c7ab87, #bf935e);
 }
 .whatsBox .card .img {
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: 310px;
   height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+.whatsBox .card:hover .img {
+  opacity: 1;
+  width: 400px;
 }
 .whatsBox .card .img01 {
   background-image: url(../images/leituracartas.jpg);
@@ -91,7 +105,16 @@
   font-size: 20px;
 }
 .whatsBox .card .content {
-  padding: 15px;
+  padding: 0 15px;
+  overflow: hidden;
+  height: 0px;
+  transition: all 0.5s;
+  transform: translateY(30px);
+}
+.whatsBox .card:hover .content {
+  padding: 20px;
+  height: 400px;
+  transform: translateY(0px);
 }
 .whatsBox .card .content .spanTitle {
   padding-bottom: 10px;
@@ -102,6 +125,11 @@
   font-size: 15px;
   font-weight: 100;
   opacity: 0.7;
+  margin-bottom: 0px;
+}
+.whatsBox .card .arrow {
+  padding: 15px;
+  font-size: 25px;
 }
 
 * {
@@ -112,7 +140,7 @@
 }
 
 .container0 {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(../images/projeto2.png);
   background-position: center;
   background-repeat: no-repeat;
