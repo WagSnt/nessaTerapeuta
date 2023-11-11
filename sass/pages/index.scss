@@ -70,8 +70,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 100px;
     cursor: pointer;
+    transition: all .5s;
+    
   }
   .card:hover {
     background-image: linear-gradient(#c7ab87, #bf935e);
@@ -84,8 +86,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: .7;
+    opacity: .8;
     transition: all .5s;
+    z-index: 2;
   }
 
   .card:hover .img {
@@ -93,16 +96,16 @@
     width: 400px;
   }
   .card .img01{
-    background-image: url(../images/leituracartas.jpg);
+    background-image: url(../images/tarot.jpg);
   }
   .card .img02{
     background-image: url(../images/leituracartas.jpg);
   }
   .card .img03{
-    background-image: url(../images/reiki.jpg);
+    background-image: url(../images/reikiwagner.jpg);
   }
   .card .img04{
-    background-image: url(../images/harminizacao.jpg);
+    background-image: url(../images/harmonizacao.jpg);
   }
   .card .img span {
     font-size: 20px;
@@ -126,7 +129,7 @@
   }
 
   .card .content .desc {
-    font-size: 15px;
+    font-size: 0.94em;
     font-weight: 100;
     opacity: .7;
     margin-bottom: 0px;
@@ -135,5 +138,11 @@
   .card .arrow {
     padding: 15px;
     font-size: 25px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+  }
+
+  .card:hover .arrow {
+    transform: rotate(0deg);
   }
 }

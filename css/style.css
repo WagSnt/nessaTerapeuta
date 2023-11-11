@@ -68,8 +68,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 100px;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .whatsBox .card:hover {
   background-image: linear-gradient(#c7ab87, #bf935e);
@@ -82,24 +83,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.7;
+  opacity: 0.8;
   transition: all 0.5s;
+  z-index: 2;
 }
 .whatsBox .card:hover .img {
   opacity: 1;
   width: 400px;
 }
 .whatsBox .card .img01 {
-  background-image: url(../images/leituracartas.jpg);
+  background-image: url(../images/tarot.jpg);
 }
 .whatsBox .card .img02 {
   background-image: url(../images/leituracartas.jpg);
 }
 .whatsBox .card .img03 {
-  background-image: url(../images/reiki.jpg);
+  background-image: url(../images/reikiwagner.jpg);
 }
 .whatsBox .card .img04 {
-  background-image: url(../images/harminizacao.jpg);
+  background-image: url(../images/harmonizacao.jpg);
 }
 .whatsBox .card .img span {
   font-size: 20px;
@@ -122,7 +124,7 @@
   font-weight: bold;
 }
 .whatsBox .card .content .desc {
-  font-size: 15px;
+  font-size: 0.94em;
   font-weight: 100;
   opacity: 0.7;
   margin-bottom: 0px;
@@ -130,6 +132,11 @@
 .whatsBox .card .arrow {
   padding: 15px;
   font-size: 25px;
+  transform: rotate(-180deg);
+  transition: all 0.5s;
+}
+.whatsBox .card:hover .arrow {
+  transform: rotate(0deg);
 }
 
 * {
