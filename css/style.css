@@ -19,28 +19,11 @@
   font-size: 30px;
   font-weight: 600;
 }
-.homeText .paragraph {
-  color: white;
-  font-size: 1.3em;
-  line-height: 1.6em;
-}
 
 .princAtendimentos {
   min-height: 100vh;
 }
 
-.whatsBox .h2 {
-  padding-top: 30px;
-  font-weight: 700;
-  text-align: center;
-  color: #F2C166;
-}
-.whatsBox .h5 {
-  font-weight: 100;
-  text-align: center;
-  color: white;
-  margin-bottom: 50px;
-}
 .whatsBox .atendimentos {
   display: flex;
   align-items: flex-start;
@@ -52,98 +35,6 @@
 .whatsBox .descAtendimentos {
   color: white;
   font-size: 1.2em;
-}
-.whatsBox .card {
-  background-image: linear-gradient(#bf935e, #bf935e);
-  overflow: hidden;
-  border-radius: 16px;
-  max-width: 310px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-.whatsBox .card:hover {
-  background-image: linear-gradient(#c7ab87, #bf935e);
-}
-.whatsBox .card .img {
-  background-position: center;
-  background-size: cover;
-  width: 310px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.8;
-  transition: all 0.5s;
-  z-index: 2;
-}
-.whatsBox .card:hover .img {
-  opacity: 1;
-  width: 400px;
-}
-.whatsBox .card .img01 {
-  background-image: url(../images/tarot.jpg);
-}
-.whatsBox .card .img02 {
-  background-image: url(../images/mesaradionicaok.jpg);
-}
-.whatsBox .card .img03 {
-  background-image: url(../images/reikiwagner.jpg);
-}
-.whatsBox .card .img04 {
-  background-image: url(../images/harmonizacao.jpg);
-}
-.whatsBox .card .img span {
-  font-size: 20px;
-}
-.whatsBox .card .content {
-  padding: 0 15px;
-  overflow: hidden;
-  height: 0px;
-  transition: all 0.5s;
-  transform: translateY(30px);
-}
-.whatsBox .card:hover .content {
-  padding: 20px;
-  height: 400px;
-  transform: translateY(0px);
-}
-.whatsBox .card .content .spanTitle {
-  padding-bottom: 10px;
-  font-size: 18px;
-  font-weight: bold;
-}
-.whatsBox .card .content .desc {
-  font-size: 0.94em;
-  font-weight: 100;
-  opacity: 0.7;
-  margin-bottom: 0px;
-}
-.whatsBox .card .arrow {
-  padding: 15px;
-  font-size: 25px;
-  transform: rotate(-180deg);
-  transition: all 0.5s;
-}
-.whatsBox .card:hover .arrow {
-  transform: rotate(0deg);
-}
-.whatsBox .btn-whats {
-  background-color: #F2C166;
-  color: black;
-  border-color: #F2C166;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 30px;
-  padding: 15px;
-  border-radius: 20px;
-}
-.whatsBox .btn-whats img {
-  width: 2rem;
-  margin-right: 0.5rem;
 }
 
 .carousel-item {
@@ -226,6 +117,10 @@
   background-color: #024059;
 }
 
+.atendimentoColetivo {
+  background-color: #024059;
+}
+
 #btnAction {
   background-color: #F2C166;
   color: black;
@@ -241,6 +136,26 @@
   transition: 0.3s;
   box-shadow: 2px 2px 2px solid black;
   padding: 18px;
+}
+
+.h2 {
+  padding-top: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #F2C166;
+}
+
+.h5 {
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.paragraph {
+  color: white;
+  font-size: 1.3em;
+  line-height: 1.6em;
 }
 
 @media (max-width: 600px) {
