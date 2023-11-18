@@ -99,9 +99,10 @@
 }
 
 .atendimentoColetivo {
+  color: white;
   position: relative;
-  height: 100vh;
-  background-image: url(../../images/coletivo2.jpg);
+  min-height: 100vh;
+  background-image: url(../../images/terapiareiki.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -113,19 +114,47 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, hsla(197, 93%, 18%, 0.679), hsla(35, 72%, 82%, 0.679));
+  background-image: linear-gradient(to right, hsla(197, 93%, 18%, 0.679), hsla(35, 72%, 82%, 0.479));
 }
 
 .coletivoBox {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: absolute;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.imgAtendimento > img {
-  height: 700px;
+.textAtendimento {
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 550px;
+  font-size: 1.2em;
+}
+
+.textAtendimento .h5 {
+  margin-bottom: 30px;
+}
+
+.textAtendimento > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #bf935e;
+  padding: 10px 20px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 5px 3px 0px;
+  transition: 0.25s;
+}
+.textAtendimento > a:hover {
+  background-color: #f2d4ae;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 5px 3px 0px;
+  transform: translateY(-5px);
 }
 
 * {
