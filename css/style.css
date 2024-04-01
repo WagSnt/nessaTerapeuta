@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.homepage {
+  height: 100vh;
+}
+
+.menu {
+  background-color: aqua;
+}
+
+.nav-link {
+  color: #000000;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.home {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+}
+
