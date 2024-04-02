@@ -6,22 +6,40 @@
 
 
 .homepage {
+  background: linear-gradient(to right, #735340, #E3A783);
   height: 100vh;
 }
 
 .menu {
-  background-color: aqua;
+  height: 10%;
 }
 
+
+
 .nav-link {
-  color: #000000;
+  color: #ffffff;
   font-size: 1.15em;
   font-weight: bold;
+  
 }
 
 .home {
-  background-color: bisque;
+  height: 90%;
   display: flex;
   align-items: center;
 }
 
+.home-text {
+  background-color: blueviolet;
+  width: 450px;
+  margin: 10em;
+}
+
+.home-img {
+  position: absolute;
+  top: 10%;
+  right: 0px;
+}
+.home-img > img {
+  width: 780px;
+}
