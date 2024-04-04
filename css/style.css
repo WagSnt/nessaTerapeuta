@@ -10,12 +10,6 @@
   height: 100vh;
 }
 
-.menu {
-  height: 10%;
-}
-
-
-
 .nav-link {
   color: #ffffff;
   font-size: 1.15em;
@@ -24,22 +18,29 @@
 }
 
 .home {
-  height: 90%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+
 }
 
 .home-text {
-  background-color: blueviolet;
-  width: 450px;
-  margin: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
 }
 
 .home-img {
-  position: absolute;
-  top: 10%;
-  right: 0px;
-}
-.home-img > img {
-  width: 780px;
+  background-image: url("../images/img-home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+  height: 100%;
+  
+  border-radius: 130px 0px 0px 130px;
+ 
 }
