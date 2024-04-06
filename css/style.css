@@ -163,8 +163,11 @@
 
 /* atendimentos */
 
+.page-atendimento {
+  background: var(--about-me-gradient);
+}
+
 .container-atendimentos {
-  background: linear-gradient(to right, #BFB6AE, #BFBFBF);
   padding: 60px;
   display: flex;
   align-items: center;
@@ -179,14 +182,76 @@
 }
 
 .card-atendimento {
-  background-color: var(--gray);
+  background-color: var(--strong-brown);
+  color: var(--skin-color);
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 4px 5px 1px rgba(0, 0, 0, 0.342)
+  box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.342);
+  border-radius: 30px;
 }
 
 .card-atendimento > img {
   width: 450px;
 }
 
+.page-atendimento > .container-btn {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.page-atendimento > .container-btn > button {
+  font-size: 16px;
+  margin-top: 15px;
+  width: 218px;
+  height: 40px;
+  border: 2px solid var(--strong-brown);
+  border-radius: 20px;
+  color: var(--skin-color);
+  background-color: var(--strong-brown);
+} .page-atendimento > .container-btn > button:hover {
+  border: 2px solid var(--skin-color);
+  border-radius: 20px;
+  color: var(--strong-brown);
+  background-color: var(--skin-color);
+}
+
+
+/*Atendimento coletivo*/
+
+.coletivo {
+  background-color: black;
+  background-image: url("../images/bg-coletivo2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space-flex {
+  width: 50%;
+}
+
+.coletivo-text {
+  background-color: #00000079;
+  width: 500px;
+  padding: 10px;
+}
+
+.coletivo-text > .h2 {
+  font-family: "Licorice", cursive;
+  font-size: 74px;
+  line-height: 1.5em;
+}
+
+.coletivo-text > button {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
