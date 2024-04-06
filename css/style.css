@@ -70,7 +70,7 @@
 
 .home-text > .paragraph {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -220,6 +220,8 @@
 
 /*Atendimento coletivo*/
 
+
+
 .coletivo {
   background-color: black;
   background-image: url("../images/bg-coletivo2.png");
@@ -240,7 +242,8 @@
 .coletivo-text {
   background-color: #00000079;
   width: 562px;
-  padding: 10px;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .coletivo-text > .h2 {
@@ -249,10 +252,119 @@
   line-height: 1.8em;
 }
 
-.coletivo-text > button {
+.btn-flex {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn-flex > button {
   background-color: transparent;
   color: #fff;
   border: 2px solid #fff;
   border-radius: 30px;
-  margin: 10px 0;
+}.btn-flex > button:hover {
+  background-color: var(--skin-color);
+  color: var(--strong-brown);
+  border: 2px solid var(--skin-color);
+}
+
+/*Ebook*/
+.ebook {
+  background: linear-gradient(to right, #BF988A, #F2DCC2);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 60px 0;
+}
+
+.ebook-img {
+  display: flex;
+  justify-content: center;
+  width: 545px;
+}
+
+.ebook > .ebook-text {
+  width: 562px;
+}
+
+.ebook > .ebook-text > .h2 {
+  font-family: 'Licorice', cursive;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-ebook-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-ebook-flex > button {
+  background-color: transparent;
+  color: var(--wine);
+  font-weight: 500;
+  border: 2px solid var(--wine);
+  border-radius: 30px;
+}.btn-ebook-flex > button:hover {
+  background-color: var(--wine);
+  color: var(--skin-color);
+  border: 2px solid var(--wine);
+}
+
+/*Integre-se*/
+
+.integre-se {
+  background: linear-gradient(to right, #BFB6AE, #BFBFBF);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.integre-se > .h2 {
+  font-family: 'Licorice', cursive;
+  font-size: 48px;
+}
+
+.integre-se > .paragraph {
+  width: 800px;
+}
+
+.container-videos > iframe{
+  border-radius: 30px;
+  margin: 15px;
+  box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.342);
+}
+
+.integre-se > button {
+  background-color: transparent;
+  color: var(--wine);
+  border: 2px solid var(--wine);
+  border-radius: 30px;
+  font-weight: 500;
+  margin-top: 15px;
+}.integre-se > button:hover {
+  background-color: var(--wine);
+  color: var(--skin-color);
+  border: 2px solid var(--wine);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #BFB6AE, #BFBFBF);
+  color: #000;
+}
+
+footer > p {
+  font-size: 16px;
+}
+
+footer > p > a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--wine);
+  font-weight: bold;
 }
