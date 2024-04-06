@@ -205,16 +205,17 @@
   font-size: 16px;
   margin-top: 15px;
   width: 218px;
-  height: 40px;
   border: 2px solid var(--strong-brown);
-  border-radius: 20px;
+  border-radius: 30px;
+  font-weight: 500;
   color: var(--skin-color);
   background-color: var(--strong-brown);
 } .page-atendimento > .container-btn > button:hover {
   border: 2px solid var(--skin-color);
-  border-radius: 20px;
+  border-radius: 30px;
   color: var(--strong-brown);
   background-color: var(--skin-color);
+  font-weight: 500;
 }
 
 
@@ -352,19 +353,26 @@
 }
 
 footer {
+  background: linear-gradient(to right, #BF988A, #F2DCC2);
   display: flex;
+  align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #BFB6AE, #BFBFBF);
   color: #000;
 }
 
 footer > p {
   font-size: 16px;
+  margin: 0px;
+  padding: 10px;
 }
+
 
 footer > p > a {
   text-decoration: none;
   font-size: 16px;
   color: var(--wine);
   font-weight: bold;
+}footer > p > a:hover {
+  color: var(--strong-brown);
 }
+
