@@ -147,7 +147,25 @@
 
 @media screen and (max-width: 600px) {
   *{
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-img {
+    order: 1;
+    width: 100%;
+  }
+
+  .home-text {
+    order: 2;
+  }
+
+  .home-text > .paragraph {
+    font-size: 14px;
   }
 
   .home-text {
@@ -161,6 +179,10 @@
   .home-text > .h6 {
     font-size: 14px;
   } 
+  
+  .home-text > button {
+    font-size: 14px;
+  }
 
   .about-me {
     display: flex;
@@ -175,9 +197,22 @@
     padding-top: 30px;
   }
 
+  .about-me > .about-me-img > img {
+    width: 300px;
+  }
+
+  .desperte {
+    background-attachment: fixed;
+    background-image: url("../images/reikiwagner350.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+
   .desperte > .desperte-text > .h3{
-    font-size: 21px;
-    padding: 20px;
+    font-size: 10px;
+    padding: 10px;
   }
 
   /*atendimentos*/
@@ -189,8 +224,12 @@
   .card-atendimento {
     background-color: transparent;
     color: var(--strong-brown);
-    width: 450px;
+    width: 300px;
   }
+  .card-atendimento > img {
+    width: 300px;
+  }
+
   /*Atendimento coletivo*/
   .coletivo {
     display: flex;
