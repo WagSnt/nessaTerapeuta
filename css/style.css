@@ -7,6 +7,7 @@
   font-weight: 400;
 }
 
+
 :root {
   --homepage-gradient: linear-gradient(to right, #735340, #E3A783);
   --about-me-gradient: linear-gradient(to right, #F2DCC2, #F1EBE5);
@@ -74,20 +75,21 @@
   font-weight: 300;
 }
 
-.home-text > button {
+.home-text > a {
+  text-decoration: none;
+  text-align: center;
   font-size: 16px;
+  font-weight: 500;
   margin-top: 15px;
   width: 218px;
-  height: 40px;
+  padding: 8px;
   border: 2px solid #fff;
   border-radius: 20px;
   color: #fff;
-  
-} .home-text > button:hover {
+} .home-text > a:hover {
   background-color: var(--skin-color);
   border-color: var(--skin-color);
   color: #000;
-  
 }
 
 .home-img {
@@ -201,16 +203,20 @@
   padding: 30px;
 }
 
-.page-atendimento > .container-btn > button {
+.page-atendimento > .container-btn > a {
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+  font-weight: 500;
   font-size: 16px;
-  margin-top: 15px;
+  margin-bottom: 20px;
   width: 218px;
   border: 2px solid var(--strong-brown);
   border-radius: 30px;
   font-weight: 500;
   color: var(--strong-brown);
   background-color: transparent;
-} .page-atendimento > .container-btn > button:hover {
+} .page-atendimento > .container-btn > a:hover {
   border: 2px solid var(--skin-color);
   border-radius: 30px;
   color: var(--skin-color);
@@ -261,12 +267,15 @@
   padding: 10px;
 }
 
-.btn-flex > button {
+.btn-flex > a {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px;
   background-color: transparent;
   color: #fff;
   border: 2px solid #fff;
   border-radius: 30px;
-}.btn-flex > button:hover {
+}.btn-flex > a:hover {
   background-color: var(--skin-color);
   color: var(--strong-brown);
   border: 2px solid var(--skin-color);
@@ -303,13 +312,16 @@
   justify-content: center;
 }
 
-.btn-ebook-flex > button {
+.btn-ebook-flex > a {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px;
   background-color: transparent;
   color: var(--wine);
   font-weight: 500;
   border: 2px solid var(--wine);
   border-radius: 30px;
-}.btn-ebook-flex > button:hover {
+}.btn-ebook-flex > a:hover {
   background-color: var(--wine);
   color: var(--skin-color);
   border: 2px solid var(--wine);
@@ -349,14 +361,17 @@
   box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.342);
 }
 
-.integre-se > button {
+.integre-se > a {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px;
   background-color: transparent;
   color: var(--wine);
   border: 2px solid var(--wine);
   border-radius: 30px;
   font-weight: 500;
   margin-top: 15px;
-}.integre-se > button:hover {
+}.integre-se > a:hover {
   background-color: var(--wine);
   color: var(--skin-color);
   border: 2px solid var(--wine);
