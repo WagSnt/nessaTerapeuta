@@ -225,28 +225,28 @@
   background-image: url("../images/bg-coletivo2.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
   height: 100vh;
   color: #fff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .space-flex {
-  width: 50%;
+  width: 545px;
 }
 
 .coletivo-text {
   background-color: #00000079;
-  width: 500px;
+  width: 562px;
   padding: 10px;
 }
 
 .coletivo-text > .h2 {
   font-family: "Licorice", cursive;
   font-size: 74px;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 
 .coletivo-text > button {
@@ -254,4 +254,5 @@
   color: #fff;
   border: 2px solid #fff;
   border-radius: 30px;
+  margin: 10px 0;
 }
