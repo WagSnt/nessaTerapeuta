@@ -283,6 +283,12 @@
   border: 2px solid var(--skin-color);
 }
 
+.breve > .h5{
+  font-family: "Licorice", cursive;
+  padding: 10px;
+  text-align: center;
+}
+
 /*Ebook*/
 .ebook {
   background: linear-gradient(to right, #BF988A, #F2DCC2);
