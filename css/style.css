@@ -179,8 +179,8 @@
 
 .atendimentos {
   display: grid;
-  grid-template-columns: 450px 450px;
-  grid-template-rows: 700px 700px;
+  grid-template-columns: 550px;
+  grid-template-rows: 700px;
   gap: 30px;
 }
 
@@ -195,7 +195,7 @@
 }
 
 .card-atendimento > img {
-  width: 450px;
+  width: 550px;
   border-radius: 30px;
 }
 
