@@ -166,6 +166,12 @@
 
 /* atendimentos */
 
+.context {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 74px;
+
+}
 .page-atendimento {
   background: var(--about-me-gradient);
 }
