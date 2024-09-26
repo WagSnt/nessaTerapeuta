@@ -93,7 +93,7 @@
 }
 
 .home-img {
-  background-image: url("../images/img-home-1900.jpg");
+  background-image: url("../images/new-home.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -232,8 +232,6 @@
 
 
 /*Atendimento coletivo*/
-
-
 
 .coletivo {
   background-color: black;
