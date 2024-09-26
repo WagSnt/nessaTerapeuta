@@ -118,15 +118,13 @@
   width: 545px;
 }
 
-
-
 .about-me > .about-me-text {
   width: 562px;
 }
 
 .about-me > .about-me-text > .h2 {
-  font-family: 'Licorice', cursive;
-  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -239,7 +237,7 @@
 
 .coletivo {
   background-color: black;
-  background-image: url("../images/bg-coletivo2.png");
+  background-image: url("../images/bg-coletivo2t.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -262,8 +260,7 @@
 }
 
 .coletivo-text > .h2 {
-  font-family: "Licorice", cursive;
-  font-size: 74px;
+  font-family: "Monserrat", sans-serif;
   line-height: 1.8em;
   display: flex;
   justify-content: center;
@@ -290,7 +287,7 @@
 }
 
 .breve > .h5{
-  font-family: "Licorice", cursive;
+  font-family: "Montserrat", sans-serif;
   padding: 10px;
   text-align: center;
 }
@@ -315,8 +312,8 @@
 }
 
 .ebook > .ebook-text > .h2 {
-  font-family: 'Licorice', cursive;
-  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -353,8 +350,8 @@
 }
 
 .integre-se > .h2 {
-  font-family: 'Licorice', cursive;
-  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
 }
 
 .integre-se > .paragraph {
