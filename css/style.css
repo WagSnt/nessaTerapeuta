@@ -62,10 +62,10 @@
 }
 
 .home-text > .h1 {
-  font-family: "Licorice", cursive;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-style: normal;
-  font-size: 98px;
+  font-size: 55px;
   color: var(--skin-color);
 }
 
