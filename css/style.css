@@ -75,6 +75,33 @@
   font-weight: 300;
 }
 
+.home-text > .container-btn2 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.home-text > .container-btn2 > a {
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 218px;
+  border: 2px solid var(--skin-color);
+  border-radius: 30px;
+  font-weight: 500;
+  color: var(--skin-color);
+  background-color: transparent;
+} .home-text > .container-btn2 > a:hover {
+  border: 2px solid var(--skin-color);
+  border-radius: 30px;
+  color: var(--strong-brown);
+  background-color: var(--skin-color);
+  font-weight: 500;
+}
+
 .home-text > a {
   text-decoration: none;
   text-align: center;
